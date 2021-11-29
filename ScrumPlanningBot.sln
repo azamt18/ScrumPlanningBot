@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30021.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B8E706D-EE3E-4D4A-9A6E-59D0B56D9EF5}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScrumPlanningBot.Infrastructure", "ScrumPlanningBot.Infrastructure\ScrumPlanningBot.Infrastructure.csproj", "{51C96102-9600-410D-80AC-C5114E2DD093}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScrumPlanningBot.Core", "ScrumPlanningBot.Core\ScrumPlanningBot.Core.csproj", "{583DEE7B-9549-4320-8C89-ED430F780C11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScrumPlanningBot.API", "ScrumPlanningBot.API\ScrumPlanningBot.API.csproj", "{0E845B85-A2AB-43F4-9DC8-70BB6F1BAD87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrumPlanningBot.Application", "ScrumPlanningBot.Application\ScrumPlanningBot.Application.csproj", "{25B412FF-8E28-47C5-A6C2-AD0FC3DB811E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C96102-9600-410D-80AC-C5114E2DD093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C96102-9600-410D-80AC-C5114E2DD093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C96102-9600-410D-80AC-C5114E2DD093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C96102-9600-410D-80AC-C5114E2DD093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583DEE7B-9549-4320-8C89-ED430F780C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583DEE7B-9549-4320-8C89-ED430F780C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583DEE7B-9549-4320-8C89-ED430F780C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583DEE7B-9549-4320-8C89-ED430F780C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E845B85-A2AB-43F4-9DC8-70BB6F1BAD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E845B85-A2AB-43F4-9DC8-70BB6F1BAD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E845B85-A2AB-43F4-9DC8-70BB6F1BAD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E845B85-A2AB-43F4-9DC8-70BB6F1BAD87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B412FF-8E28-47C5-A6C2-AD0FC3DB811E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B412FF-8E28-47C5-A6C2-AD0FC3DB811E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B412FF-8E28-47C5-A6C2-AD0FC3DB811E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B412FF-8E28-47C5-A6C2-AD0FC3DB811E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EFB7D1D-6A29-4019-9313-6089DC94761B}
+	EndGlobalSection
+EndGlobal
