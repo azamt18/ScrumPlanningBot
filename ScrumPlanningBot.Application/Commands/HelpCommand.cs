@@ -23,7 +23,7 @@ namespace ScrumPlanningBot.Application.Commands
         {
             var responseText = "Hi, this bot is designed for Agile poker planning";
             responseText += "\nSend: ";
-            responseText += "\n◾️ /newroom - to create a new room. You'll receive a link with <code>{room id}</code> to invite your teammates";
+            responseText += "\n◾️ /newroom <code>{room title}</code> - to create a new room. You'll receive a link with <code>{room id}</code> to invite your teammates";
             responseText += "\n◾️ /jointoroom <code>{room id}</code> - to join the room, or you can join via link";
             responseText += "\n◾️ /newstory <code>{room id}</code> <code>{story title}</code> - to create a new story in the room";
             responseText += "\n◾️ /publish - to publish results after the story has been estimated";

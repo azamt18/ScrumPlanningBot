@@ -38,7 +38,7 @@ namespace ScrumPlanningBot.Application
         }
 
         /// This method registers all the commands with the bot on telegram
-        /// so that the user gets some sort of intelisense
+        /// so that the user gets some sort of intellisense
         private void RegisterCommands()
         {
             var commands = _serviceProvider

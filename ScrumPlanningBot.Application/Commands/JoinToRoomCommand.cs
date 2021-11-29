@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using ScrumPlanningBot.Core.Entities;
+﻿using System.Threading.Tasks;
 using ScrumPlanningBot.Core.Services;
 
 namespace ScrumPlanningBot.Application.Commands

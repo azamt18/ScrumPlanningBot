@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
-using ScrumPlanningBot.Core.Entities;
 using ScrumPlanningBot.Core.Services;
 
 namespace ScrumPlanningBot.Application.Commands

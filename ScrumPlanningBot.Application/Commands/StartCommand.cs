@@ -27,7 +27,7 @@ namespace ScrumPlanningBot.Application.Commands
             {
                 var subs = commandText.Split('_');
                 var roomId = subs[1];
-                
+
                 // find the room by id
                 var room = _roomService.Get(roomId);
                 if (room != null)

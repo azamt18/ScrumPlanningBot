@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using ScrumPlanningBot.Core.Entities;
 using ScrumPlanningBot.Core.Services;
@@ -21,7 +20,7 @@ namespace ScrumPlanningBot.Application.Commands
             _roomService = roomService;
         }
 
-        public async Task Execute(IChatService chatService, long chatId, long userId, int messageId, 
+        public async Task Execute(IChatService chatService, long chatId, long userId, int messageId,
             string? commandText)
         {
             var responseText = "Send a RoomId and title of the story. Example /newstory 619a56486f342d25ad248bf7 FA-123";
@@ -54,11 +53,11 @@ namespace ScrumPlanningBot.Application.Commands
                         {"1sp", $"setsp 1 {roomId} {story.Id}"},
                         {"2sp", $"setsp 2 {roomId} {story.Id}"},
                         {"3sp", $"setsp 3 {roomId} {story.Id}"},
-                        {"4sp", $"setsp 4 {roomId} {story.Id}"},
                         {"5sp", $"setsp 5 {roomId} {story.Id}"},
                         {"8sp", $"setsp 8 {roomId} {story.Id}"},
                         {"13sp", $"setsp 13 {roomId} {story.Id}"},
-                        {"21sp", $"setsp 21 {roomId} {story.Id}"}
+                        {"21sp", $"setsp 21 {roomId} {story.Id}"},
+                        {"34sp", $"setsp 34 {roomId} {story.Id}"}
                     };
 
                     foreach (var roomUser in room.Users)
